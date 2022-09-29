@@ -1,4 +1,4 @@
-<img src="https://renovedigital.com.br/wp-content/uploads/2022/09/Ativo-2@4x-1.png" alt="Renove digital" width="120"/>
+<img src="https://renovedigital.com.br/wp-content/uploads/2022/09/Ativo-2@4x-1.png" alt="Renove digital" width="200"/>
 
 
 # Teste para desenvolvedor web
