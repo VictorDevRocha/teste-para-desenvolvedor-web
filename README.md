@@ -1,4 +1,4 @@
-<img src="https://renovedigital.com.br/wp-content/webp-express/webp-images/uploads/2021/01/Prancheta-2@4x-1536x444.png.webp" alt="Renove digital" width="120"/>
+<img src="https://renovedigital.com.br/wp-content/uploads/2022/09/Ativo-2@4x-2-e1663755569246.png" alt="Renove digital" width="120"/>
 
 
 # Teste para desenvolvedor web
@@ -35,7 +35,7 @@ Seu projeto será avaliado de acordo com a qualidade do código enviado, organiz
 1. Faça um "fork" deste projeto para sua conta no Github;
 2. Implemente o projeto em seu próprio fork;
 3. Conclua e suba os arquivos para o seu repositório no Github;
-4. Envie um e-mail para dev@renovedigital.com.br e nos informe a url do seu fork.
+4. Envie um e-mail para rh@renovedigital.com.br e nos informe a url do seu fork.
  
 _obs: Não se preocupe isso é apenas um teste, não usaremos seu código para uso comercial!_
 
