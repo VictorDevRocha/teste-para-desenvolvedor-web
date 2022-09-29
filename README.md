@@ -4,7 +4,7 @@
 # Teste para desenvolvedor web
 O objetivo deste teste é avaliar seu conhecimento técnico e analisarmos se você se encaixa no perfil que estamos procurando. O teste para a **vaga de desenvolvedor web** consiste em desenvolver o layout da melhor forma possível. 
 
-Download do layout: **[Link do site](http://static.renovedigital.com.br/lista-produtos.png)**
+Download do layout: **[Link do site](https://www.figma.com/file/5bPhtU9yK2SB0Wx4MnGRUo/Teste?node-id=325%3A494)** **[Senha: teste@Renove2022]**
 
 ## Você pode...
 
