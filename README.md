@@ -1,42 +1,32 @@
-<img src="https://renovedigital.com.br/wp-content/uploads/2022/09/Ativo-2@4x-1.png" alt="Renove digital" width="200"/>
+# Renove-Teste
+
+## Descrição do Projeto
+
+Teste Tecnico da Renove Digital
+
+## Tecnologias Usadas
+
++ React + Vite
++ HTML
++ Css
 
 
-# Teste para desenvolvedor web
-O objetivo deste teste é avaliar seu conhecimento técnico e analisarmos se você se encaixa no perfil que estamos procurando. O teste para a **vaga de desenvolvedor web** consiste em desenvolver o layout da melhor forma possível. 
+## Configuração do Projeto
 
-Download do layout: **[Link do site](https://www.figma.com/file/5bPhtU9yK2SB0Wx4MnGRUo/Teste?node-id=325%3A494)** **[Senha: teste@Renove2022]**
+Clone o repositório:
 
-## Você pode...
+```
+git clone https://github.com/VictorDevRocha/Todo-List-Vue.git
+```
 
-* Utilizar qualquer pré-processador CSS ou CSS puro; 
-* Utilizar npm _(preferência por [npm])_, webpack, gulp ou similares;
-* Utilizar algum framework front-end _(preferência por nenhum framework)_;
-* Utilizar alguma biblioteca CSS ou JS (jQuery), mas lembre-se da performance;
+Baixe as depencias do projeto no terminal dando o comando:
 
-## Esperamos que você...
+```
+npm install
+```
 
-* Fique atento aos detalhes, deixando o layout mais fiel possível;
-* Escreva um código com qualidade, priorizando as boas práticas, semântica, organização e a legibilidade;
-* Utilize as técnicas necessárias para que a peformance da página seja satisfatória;
-* Desenvolva-o de modo responsivo (nem preciso dizer, né?! :p)
-* Listar os produtos / Adicionar no carrinho / Remover do carrinho.
- ---
-* Crie um README com as instruções de como rodar o projeto e qualquer outra informação relevante referente ao layout;
+### Para compilar e iniciar o Projeto:
 
-Também solicitamos que nos envie um pequeno resumo do você acha que poderia ser melhorado em questões de layout. Qualquer informação é bem vinda :)
-
-## Como será avaliado?
-
-Seu projeto será avaliado de acordo com a qualidade do código enviado, organização dos arquivos e, claro, de toda a solução proposta por você. Valorizamos muito a criatividade e a usabilidade das soluções criadas pelos profissionais, então tenha isso em mente. Nos surpreenda! ;)
-
-
-## Entrega
-
-1. Faça um "fork" deste projeto para sua conta no Github;
-2. Implemente o projeto em seu próprio fork;
-3. Conclua e suba os arquivos para o seu repositório no Github;
-4. Envie um e-mail para rh@renovedigital.com.br e nos informe a url do seu fork.
- 
-_obs: Não se preocupe isso é apenas um teste, não usaremos seu código para uso comercial!_
-
-_Um até logo e boa sorte!_
+```
+npm run serve
+```
