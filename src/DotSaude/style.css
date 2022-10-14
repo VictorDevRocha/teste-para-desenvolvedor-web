@@ -1,0 +1,255 @@
+.Page3 {
+  background-image: url("../assets/Page3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.textPage3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.textPage3 h6 {
+  padding-top: 8rem;
+  font-weight: 200;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.textPage3 h1 {
+  width: 75%;
+  font-size: 2.5rem;
+  line-height: 52px;
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
+.textPage3 p {
+  width: 75%;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.page3 h1 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+}
+
+.Sections {
+  display: flex;
+  padding-top: 11rem;
+}
+
+.Section1 {
+  width: 33%;
+  text-align: start;
+  padding-left: 8%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Section1 h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 34px;
+  padding-bottom: 2rem;
+}
+
+.IconsText {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 17rem;
+}
+
+.IconsText p {
+  display: flex;
+  align-items: center;
+}
+
+.IconsSection1 {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-right: 15px;
+}
+
+.hrHover {
+  opacity: 30%;
+}
+
+.Section2 {
+  width: 33%;
+}
+
+.WomanPage3 {
+  position: absolute;
+}
+
+.Section3 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7rem;
+  gap: 15px;
+}
+
+.card {
+  border: 1px solid none;
+  background-color: #106EB0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px;
+  gap: 10px;
+  width: 17rem;
+  height: 14.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.card p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.card h1 {
+  padding-top: 1.2rem;
+}
+
+.ButtonPage3 hr {
+  border: none;
+  height: 2px;
+  width: 30%;
+}
+
+.hrGradientLeft {
+  background-image: linear-gradient(90deg, white, transparent);
+  position: absolute;
+  bottom: -90%;
+  right: 8%;
+  opacity: 0.5;
+}
+
+.hrGradientRight {
+  background-image: linear-gradient(200deg, white, transparent);
+  position: absolute;
+  bottom: -90%;
+  right: 58.5%;
+  opacity: 0.5;
+}
+
+.ButtonPage3 button{
+  position: absolute;
+  bottom: -93%;
+  right: 41%;
+  padding: 1rem;
+  background-color: #FD900D;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.ButtonPage3 button:hover {
+  background-color: #ff9d26;
+}
+
+.page4 {
+  background-color: #ffff;
+}
+
+.BottomContent {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6rem;
+}
+
+.ItensCard {
+  width: 58%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.ItensCardContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.ItensCardContent div {
+  width: 19rem;
+}
+
+.ItensCardContent div p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 28px;
+  font-weight: 300;
+  color: #4C4B63;
+}
+
+.FamilyPage4 {
+  width: 31rem;
+  height: 20.75rem;
+}
+
+.ButtonPage4 button {
+  margin-top: 3rem;
+  background-color: #106EB0;
+  border-radius: 4px;
+  padding: 16px 32px;
+  border: none;
+  color: white;
+  display: flex;
+  cursor: pointer;
+  transition: 500ms;
+  width: fit-content;
+}
+
+.ButtonPage4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.ButtonPage4 button:hover {
+    background-color: #3075a7;
+}
+
+.ContentTopPage4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.ContentTopPage4 p {
+  margin-top: 8rem;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #F08224;
+}
+
+.ContentTopPage4 h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  width: 60%;
+}

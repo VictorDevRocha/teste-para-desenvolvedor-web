@@ -1,0 +1,120 @@
+
+header {
+  background-color: #EC7000;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 4.7rem;
+}
+
+.Logo {
+  margin-left: 4rem;
+}
+
+ul {
+  font-size: 1rem;
+  display: flex;
+  outline: none;
+  list-style: none;
+  gap: 1.5rem;
+  color: white;
+}
+
+li {
+  cursor: pointer;
+}
+
+.nav-link-blue {
+  background-color: #106EB0;
+  height: 4.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.First-Page {
+  background-image: url("../assets/FirstBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.Text-Content {
+  max-width: 46%;
+  color: white;
+  padding-left: 5.5rem;
+  margin-top: 7.5rem;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.Text-Content h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.Text-Content p {
+  font-size: 1.1rem;
+  padding-top: 1rem;
+  line-height: 30px;
+  opacity: 85%;
+  font-weight: 200;
+
+}
+
+.Text-Content button {
+  margin-top: 3rem;
+  background-color: #106EB0;
+  border-radius: 4px;
+  padding: 16px 32px;
+  border: none;
+  color: white;
+  display: flex;
+  cursor: pointer;
+  transition: 500ms;
+  width: fit-content;
+}
+
+.Text-Content button:hover {
+  background-color: #3075a7;
+}
+
+.Arrow-Button {
+  padding-left: 0.7rem;
+}
+
+.Explorer p{
+  margin-top: 4rem;
+  opacity: 85%;
+  cursor: pointer;
+}
+
+.ArrowExplor {
+  margin-right: 10px;
+}
+
+.icon {
+  position: absolute;
+  bottom: -11%;
+  right: 2%;
+}

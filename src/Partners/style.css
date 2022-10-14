@@ -1,0 +1,74 @@
+.page6 {
+  background-color: #ffff;
+}
+
+.TopContentPage6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.TopContentPage6 p {
+  margin-top: 8rem;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #F08224;
+}
+
+.TopContentPage6 h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 52px;
+  width: 60%;
+}
+
+.BottomContentPage6 {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.BottomContentPage6 section {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.BottomContentPage6 section div {
+  background-color: #F3F3F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 216px;
+  height: 72px;
+}
+
+.ButtonPage6 {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ButtonPage6 button {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #106EB0;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 4.5rem;
+}
+
+.ButtonPage6 button:hover {
+  background-color: #217dbe;
+}

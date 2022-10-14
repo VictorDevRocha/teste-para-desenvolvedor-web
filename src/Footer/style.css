@@ -1,0 +1,125 @@
+.page9 {
+  margin: 4rem 4rem 1rem 4rem;
+}
+
+.TopContentFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.TopContentFooter p {
+  font-weight: 300;
+  color: #4C4B63;
+}
+
+.TopMidContentFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.TopMidContentFooter h3 {
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.TopLeftContentFooter {
+  width: 18%;
+}
+
+.TopLeftContentFooter p{
+  margin-top: 0.7rem;
+  line-height: 28px;
+}
+
+.TopMidContentFooter p {
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.TopRightContentFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ContactFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ContactFooter h3 {
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.ContactFooter div img {
+  margin-right: 0.5rem;
+}
+
+.ContactFooter div {
+  display: flex;
+  align-items: center;
+  color: #4C4B63;
+  margin-bottom: 0.5rem;
+}
+
+.ContactFooter div a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  color: #4C4B63;
+}
+
+.SocialMediaFooter h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.SocialMediaFooter img {
+  margin-right: 1rem;
+}
+
+.MidContentFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.MidContentFooter div {
+  display: flex;
+  cursor: pointer;
+}
+
+.MidContentFooter div p {
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+.MidContentFooter p {
+  font-weight: 300;
+}
+
+.HrFooter{
+  background: #E5E5EB;
+  opacity: 0.4;
+}
+
+.BottomContentFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EC7000;
+}
+
+.BottomContentFooter img {
+  margin: 10px 0px;
+  width: 106px;
+  height: 24px;
+}

@@ -1,0 +1,48 @@
+.page5 {
+  background: url("../assets/WomanPage55.png"), linear-gradient(33.03deg, #094768 15.62%, #106EB0 96.52%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.page5 h1{
+  margin-top: 5rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 52px;
+  text-align: center;
+  color: #ffff;
+  width: 60%;
+}
+
+.page5 p {
+  margin-top: 1rem;
+  font-weight: 200;
+  font-size: 1rem;
+  line-height: 28px;
+  text-align: center;
+  color: #ffff;
+  width: 60%;
+}
+
+.page5 button{
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #FD900D;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 5rem;
+}
+
+.page5 button:hover {
+  background-color: #ff9d26;
+}
