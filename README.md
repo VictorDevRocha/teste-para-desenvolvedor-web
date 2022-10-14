@@ -16,7 +16,7 @@ Teste Tecnico da Renove Digital
 Clone o repositório:
 
 ```
-git clone https://github.com/VictorDevRocha/Todo-List-Vue.git
+git clone https://github.com/VictorDevRocha/teste-para-desenvolvedor-web
 ```
 
 Baixe as depencias do projeto no terminal dando o comando:
