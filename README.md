@@ -9,6 +9,7 @@ Teste Tecnico da Renove Digital
 + React + Vite
 + HTML
 + Css
++ Swiper (Para o carrosel com slider)
 
 
 ## Configuração do Projeto
