@@ -34,5 +34,5 @@ npm run serve
 ## Site do Projeto
 
 ```
-href="https://renove-teste-web.netlify.app/
+https://renove-teste-web.netlify.app/
 ````
