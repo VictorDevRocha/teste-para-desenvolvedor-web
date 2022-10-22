@@ -409,6 +409,19 @@
 .FamilyPage4 {
   width: 400px;
 }
+
+.ItensCardContent div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.WomanPage3 {
+  height: 50%;
+}
 }
 
 @media (max-width: 425px) {
@@ -434,7 +447,6 @@
   }
 
   .WomanPage3 {
-    width: 100%;
   }
 
   .ContentTopPage4 h1{
