@@ -44,11 +44,11 @@
 
 .Sections {
   display: flex;
-  padding-top: 11rem;
+  padding-top: 5rem;
 }
 
 .Section1 {
-  width: 33%;
+  width: 32%;
   text-align: start;
   padding-left: 5%;
   display: flex;
@@ -262,7 +262,7 @@
 
   .WomanPage3 {
     height: 625px;
-    bottom: -2450px;
+    bottom: -2300px;
   }
 
   .Section3{
@@ -281,7 +281,7 @@
 
 @media (max-width: 1050px) {
   .WomanPage3 {
-    bottom: -2500px;
+    bottom: -2430px;
   }
   .ContentTopPage4 h1{
     width: 80%;
@@ -294,7 +294,7 @@
 
 @media (max-width: 960px) {
   .WomanPage3 {
-    bottom: -2630px;
+    bottom: -2530px;
     width: 400px;
     height: 550px;
   }
@@ -324,14 +324,14 @@
 
 @media (max-width: 900px) {
   .WomanPage3 {
-    bottom: -2640px;
+    bottom: -2500px;
     width: 350px;
   }
 }
 
 @media (max-width: 820px) {
   .WomanPage3 {
-    bottom: -2740px;
+    bottom: -2560px;
   }
 }
 
@@ -354,6 +354,10 @@
 
   .Section1 h2, .Section1 hr{
     width: 80%;
+  }
+
+  .Section1 h2 {
+    font-size: 1.5rem;
   }
 
   .WomanPage3 {
