@@ -90,21 +90,21 @@ function DotHealt() {
         <div className="BottomContent">
           <section className="ItensCard">
             <div className="ItensCardContent">
-              <div className="">
+              <div>
                 <img src={IconMsg} alt="Icone Mensagem" />
                 <p>Atendimento rápido, prático e fácil.</p>
               </div>
-              <div className="">
+              <div>
                 <img src={IconCall} alt="Icone Chamada" />
                 <p>Cuidado desde o primeiro contato.</p>
               </div>
             </div>
             <div className="ItensCardContent">
-              <div className="">
+              <div>
                 <img src={IconZoom} alt="Icone Lupa" />
                 <p>Assistência total para encontrar o melhor plano pra você.</p>
               </div>
-              <div className="">
+              <div>
                 <img src={IconPersona} alt="Icone de personalização" />
                 <p>Serviço personalizado de acordo com a sua necessidade.</p>
               </div>

@@ -37,7 +37,10 @@
 .BottomContentPage6 section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .BottomContentPage6 section div {
@@ -71,4 +74,26 @@
 
 .ButtonPage6 button:hover {
   background-color: #217dbe;
+}
+
+@media (max-width: 768px) {
+  .TopContentPage6 h1 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .TopContentPage6 h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .TopContentPage6 h1 {
+    font-size: 2rem;
+  }
+
+  .BottomContentPage6 {
+    margin-top: 3rem;
+  }
 }

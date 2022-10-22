@@ -65,8 +65,8 @@ function Footer() {
               © 2022 Renove Saúde. CNPJ. 00.000.000/0000-00. Todos os direitos
               reservados.
             </p>
-            <div>
-              <img src={ArrowTop} alt="Seta Para cima" />
+            <div className="ArrowUpDiv">
+              <img src={ArrowTop} alt="Seta Para cima" className="ArrowUp" />
               <p>Voltar ao topo</p>
             </div>
           </div>

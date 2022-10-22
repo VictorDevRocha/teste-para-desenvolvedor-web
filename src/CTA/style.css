@@ -46,3 +46,25 @@
 .page5 button:hover {
   background-color: #ff9d26;
 }
+
+@media (max-width: 900px) {
+  .page5 h1, .page5 p{
+    width: 80%;
+  }
+}
+
+@media (max-width: 450px) {
+  .page5 h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .page5 h1 {
+    font-size: 1.7rem;
+  }
+
+  .page5 {
+    gap: 0.5rem;
+  }
+}

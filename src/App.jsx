@@ -6,11 +6,13 @@ import Form from "./Form";
 import "./global.css";
 import Partners from "./Partners";
 import Questions from "./Questions";
+import CarouselPage from "./Solutions";
 
 function App() {
   return (
     <>
       <FirstPage />
+      <CarouselPage />
       <DotHealt />
       <CTA />
       <Partners />

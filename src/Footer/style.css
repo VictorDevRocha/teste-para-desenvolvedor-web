@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 5rem;
+  flex-wrap: wrap;
 }
 
 .TopContentFooter p {
@@ -86,6 +87,7 @@
 
 .MidContentFooter {
   display: flex;
+  
   flex-direction: row;
   justify-content: space-between;
   margin-top: 1.5rem;
@@ -95,6 +97,13 @@
 .MidContentFooter div {
   display: flex;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+.ArrowUpDiv p{
+  width: 150px;
 }
 
 .MidContentFooter div p {
@@ -122,4 +131,26 @@
   margin: 10px 0px;
   width: 106px;
   height: 24px;
+}
+
+.ArrowUp {
+  height: 16px;
+  width: 16px;
+}
+
+@media (max-width: 1050px) {
+  .TopContentFooter {
+    gap: 2rem;
+  }
+
+  .TopLeftContentFooter {
+    width: 220px;
+  }
+}
+
+@media (max-width: 550px) {
+  .MidContentFooter {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }

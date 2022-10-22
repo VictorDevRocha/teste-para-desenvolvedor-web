@@ -15,31 +15,31 @@ nav {
   margin-left: 4rem;
 }
 
-ul {
+.Links {
   font-size: 1rem;
   display: flex;
+  align-items: center;
+  justify-content: center;
   outline: none;
   list-style: none;
   gap: 1.5rem;
   color: white;
 }
 
-li {
+.Links li {
   cursor: pointer;
 }
 
 .nav-link-blue {
   background-color: #106EB0;
-  height: 4.7rem;
+  padding: 1.63rem;
+  padding-left: 2rem;
+  color: white;
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-left: 1.5rem;
-  color: white;
-  cursor: pointer;
 }
 
 .nav-links {
@@ -50,16 +50,14 @@ li {
 }
 
 .First-Page {
-  background-image: url("../assets/FirstBackground.png");
+  background: url("../assets/FirstBackground.png") no-repeat center center;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   display: flex;
   flex-direction: row;
 }
 
 .Text-Content {
-  max-width: 46%;
+  width: 46%;
   color: white;
   padding-left: 5.5rem;
   margin-top: 7.5rem;
@@ -77,9 +75,7 @@ li {
   font-size: 1.1rem;
   padding-top: 1rem;
   line-height: 30px;
-  opacity: 85%;
   font-weight: 200;
-
 }
 
 .Text-Content button {
@@ -103,10 +99,17 @@ li {
   padding-left: 0.7rem;
 }
 
-.Explorer p{
-  margin-top: 4rem;
-  opacity: 85%;
+.Explorer {
+  position: absolute;
+  left: 75px;
+  bottom: -120px;
   cursor: pointer;
+  color: #fff;
+}
+
+.Explorer p{
+  font-weight: 200;
+  padding: 1rem;
 }
 
 .ArrowExplor {
@@ -115,6 +118,296 @@ li {
 
 .icon {
   position: absolute;
-  bottom: -11%;
-  right: 2%;
+  bottom: -120px;
+  right: 20px;
+}
+
+.mobile-menu {
+  cursor: pointer;
+  display: none;
+
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 500ms;
+
+}
+
+.MobileMenuActive {
+  cursor: pointer;
+}
+
+.line1Active {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.line2Active {
+  opacity: 0;
+}
+
+.line3Active {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+.MobileMenuActive div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 500ms;
+
+}
+
+.MobileLinks {
+  position: absolute;
+  top: 8vh;
+  right: 0;
+}
+
+.MobileUl li {
+  cursor: pointer;
+}
+
+.MobileUl {
+  margin-top: 1rem;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 40000;
+  background: #EC7000;
+}
+
+.MobileLinkBlue {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #106EB0;
+  padding: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-menu {
+    margin-right: 1rem;
+    display: block;
+  }
+
+  .MobileMenuActive {
+    margin-right: 1rem;
+  }
+
+  .Logo {
+    margin-left: 4rem;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  .Text-Content {
+    padding-left: 4rem;
+    margin-top: 10rem;
+    margin-bottom: 7rem;
+    }
+  
+
+  .Text-Content h1 {
+    font-size: 2rem;
+  }
+
+  .Woman {
+    width: 95%;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 940px) {
+  .icon {
+    bottom: -160px;
+    right: 2%;
+  }
+
+  .Explorer {
+    bottom: -160px;
+    left: 2%;
+  }
+
+  .Woman {
+    margin-top: 15%;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .icon {
+    bottom: -130px;
+    right: 2%;
+  }
+
+  .Explorer {
+    bottom: -130px;
+    left: 2%;
+  }
+
+  .Woman {
+    margin-top: 15%;
+    margin-bottom: 4rem;
+  }
+
+  .Text-Content button {
+    margin-top: 2rem;
+    width: 255px;
+
+  }
+
+  .Text-Content {
+    margin-top: 5rem;
+  }
+
+  .Woman {
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 5rem;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+  .Logo {
+    margin-left: 2rem;
+  }
+
+  .Text-Content {
+    padding-left: 4rem;
+    margin-top: 3rem;
+    width: 85%;
+    margin-bottom: 7rem;
+    }
+  
+
+  .Text-Content h1 {
+    font-size: 2rem;
+  }
+
+  .First-Page {
+    flex-direction: column-reverse;
+  }
+
+  .Text-Content button {
+    margin-top: 2rem;
+    width: 255px;
+
+  }
+
+  .Woman {
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+
+  .icon {
+    bottom: -590px;
+    right: 2%;
+  }
+
+  .Explorer {
+    bottom: -590px;
+    left: 2%;
+  }
+}
+
+@media (max-width: 550px) {
+  .icon {
+    bottom: -520px;
+    right: 2%;
+  }
+
+  .Explorer {
+    bottom: -520px;
+    left: 2%;
+  }
+}
+
+@media (max-width: 450px) {
+  .Text-Content button {
+    margin-top: 2rem;
+    width: 255px;
+  }
+
+  .icon {
+    bottom: -465px;
+    right: 2%;
+  }
+
+  .Explorer {
+    bottom: -465px;
+    left: 2%;
+  }
+}
+
+@media (max-width: 425px) {
+  .Text-Content h1 {
+    font-size: 1.7rem;
+  }
+
+  .icon {
+    bottom: -435px;
+    right: 2%;
+  }
+
+  .Explorer {
+    bottom: -435px;
+    left: 2%;
+  }
+}
+
+@media (max-width: 375px) {
+  .Text-Content {
+  padding-left: 2rem;
+  margin-top: 2rem;
+  }
+
+  
+
+  .Woman {
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 2rem;
+  }
+
+  .Promisse {
+    width: 100px;
+  }
+
+  .icon {
+    bottom: -400px;
+    right: 2%;
+  }
+
+  .Explorer {
+    bottom: -400px;
+    left: 0;
+    left: 2%;
+  }
+}
+
+@media (max-width: 350px) {
+  .Text-Content h1 {
+    font-size: 1.8rem;
+  }
 }

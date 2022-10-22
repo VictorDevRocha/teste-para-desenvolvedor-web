@@ -98,3 +98,61 @@
 .RightContent form button:hover {
   background-color: #2877af;
 }
+
+@media (max-width: 1160px) {
+  .page8 {
+    flex-direction: column;
+  }
+
+  .LeftContent {
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .LeftContent div {
+    margin-left: 0;
+    text-align: center;
+    width: 85%;
+  }
+}
+
+@media (max-width: 600px) {
+  .RightContent form {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .RightContent form {
+    width: 15rem;
+    margin: 2rem;
+  }
+
+  .LeftContent div h1 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  .RightContent input {
+    height: 3rem;
+    font-size: 1.2rem;
+  }
+
+  .RightContent textarea {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .RightContent form {
+    width: 13rem;
+  }
+
+  .RightContent form p {
+    font-weight: 400;
+  }
+}
