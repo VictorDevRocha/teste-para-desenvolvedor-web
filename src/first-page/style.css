@@ -361,17 +361,22 @@ nav {
 }
 
 @media (max-width: 425px) {
+
+  .Text-Content {
+    padding-left: 2rem;
+  }
+
   .Text-Content h1 {
     font-size: 1.7rem;
   }
 
   .icon {
-    bottom: -435px;
+    bottom: -115px;
     right: 2%;
   }
 
   .Explorer {
-    bottom: -435px;
+    bottom: -115px;
     left: 2%;
   }
 }
@@ -395,14 +400,24 @@ nav {
   }
 
   .icon {
-    bottom: -400px;
+    bottom: -300px;
     right: 2%;
   }
 
   .Explorer {
-    bottom: -400px;
+    bottom: -300px;
     left: 0;
     left: 2%;
+  }
+}
+
+@media (max-width: 360px) {
+  .icon {
+    bottom: -210px;
+  }
+
+  .Explorer {
+    bottom: -210px;
   }
 }
 

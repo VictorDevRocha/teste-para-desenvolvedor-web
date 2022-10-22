@@ -132,22 +132,30 @@
     margin: 2rem;
   }
 
+  .RightContent form button {
+    padding: 1rem;
+  }
+
   .LeftContent div h1 {
     font-size: 2rem;
     line-height: 40px;
   }
 
   .RightContent input {
-    height: 3rem;
-    font-size: 1.2rem;
+    height: 2rem;
+    font-size: 1rem;
   }
 
   .RightContent textarea {
     font-size: 1.2rem;
   }
+
+  .RightContent form .TextForm {
+    margin-bottom: 1rem;
+  }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 350px) {
   .RightContent form {
     width: 13rem;
   }
