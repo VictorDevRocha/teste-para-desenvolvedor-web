@@ -15,7 +15,7 @@ function CarouselTooth() {
   return (
     <Swiper
       // install Swiper modules
-      id="mms"
+      id="SwiperPage2"
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={0}
       breakpoints={{
