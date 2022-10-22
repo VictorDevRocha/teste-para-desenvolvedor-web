@@ -324,14 +324,14 @@
 
 @media (max-width: 900px) {
   .WomanPage3 {
-    bottom: -2740px;
+    bottom: -2640px;
     width: 350px;
   }
 }
 
 @media (max-width: 820px) {
   .WomanPage3 {
-    bottom: -2940px;
+    bottom: -2740px;
   }
 }
 
@@ -444,9 +444,6 @@
   .ButtonPage3 button {
     font-size: 1rem 2px 1rem 2px;
     font-weight: 200;
-  }
-
-  .WomanPage3 {
   }
 
   .ContentTopPage4 h1{
