@@ -43,33 +43,37 @@ function FirstPage() {
         </nav>
       </header>
       <div className="First-Page">
-        <section className="Text-Content">
-          <h1>Nosso principal compromisso é com a sua saúde!</h1>
-          <p>
-            Somos especializados em identificar e oferecer o plano de saúde
-            ideal à sua necessidade. Trabalhamos com as melhores empresas de
-            planos de saúde do país.
-          </p>
-          <button>
-            Faça uma cotação agora
-            <img src={ArrowButton} alt="arrow" className="Arrow-Button" />
-          </button>
-        </section>
-        <section className="Image-Content">
-          <img src={woman} alt="Woman Photo" className="Woman" />
-        </section>
-        <div className="icon">
-          <img src={icon} alt="icon" className="Promisse" />
-        </div>
-        <div className="Explorer">
-          <p>
-            <img
-              src={ArrowExplorer}
-              alt="arrowExplorer"
-              className="ArrowExplor"
-            />
-            Continue explorando
-          </p>
+        <main className="FirstPageContent">
+          <section className="Text-Content">
+            <h1>Nosso principal compromisso é com a sua saúde!</h1>
+            <p>
+              Somos especializados em identificar e oferecer o plano de saúde
+              ideal à sua necessidade. Trabalhamos com as melhores empresas de
+              planos de saúde do país.
+            </p>
+            <button>
+              Faça uma cotação agora
+              <img src={ArrowButton} alt="arrow" className="Arrow-Button" />
+            </button>
+          </section>
+          <section className="Image-Content">
+            <img src={woman} alt="Woman Photo" className="Woman" />
+          </section>
+        </main>
+        <div className="BottomContentFirstPage">
+          <div className="icon">
+            <img src={icon} alt="icon" className="Promisse" />
+          </div>
+          <div className="Explorer">
+            <p>
+              <img
+                src={ArrowExplorer}
+                alt="arrowExplorer"
+                className="ArrowExplor"
+              />
+              Continue explorando
+            </p>
+          </div>
         </div>
       </div>
     </>

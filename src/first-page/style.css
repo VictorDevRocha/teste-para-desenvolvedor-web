@@ -52,6 +52,9 @@ nav {
 .First-Page {
   background: url("../assets/FirstBackground.png") no-repeat center center;
   background-size: cover;
+}
+
+.FirstPageContent{
   display: flex;
   flex-direction: row;
 }
@@ -100,16 +103,27 @@ nav {
 }
 
 .Explorer {
+  display: flex;
+  align-items: center;
   position: absolute;
-  left: 75px;
-  bottom: -120px;
   cursor: pointer;
   color: #fff;
+  z-index: 1;
+  left: 0;
+  top: 675px;
+  padding: 1rem;
+  margin-left: 4rem;
+}
+
+.Explorer img {
+  margin-right: 1rem;
 }
 
 .Explorer p{
+  font-size: 1.1rem;
+  line-height: 30px;
   font-weight: 200;
-  padding: 1rem;
+  color: white;
 }
 
 .ArrowExplor {
@@ -118,7 +132,7 @@ nav {
 
 .icon {
   position: absolute;
-  bottom: -120px;
+  top: 675px;
   right: 20px;
 }
 
@@ -234,34 +248,54 @@ nav {
   }
 }
 
-@media (max-width: 940px) {
+@media (max-width: 1050px) {
   .icon {
-    bottom: -160px;
-    right: 2%;
+    position: relative;
+    right: 20px;
+    top: 0;
   }
 
   .Explorer {
-    bottom: -160px;
-    left: 2%;
+    position: relative;
+    top: 0;
   }
 
+  .Woman {
+    margin-top: 5%;
+  }
+
+  .BottomContentFirstPage {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (max-width: 880px) {
+  .Woman {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .Text-Content {
+    width: 70%;
+    margin-top: 7rem;
+  }
+}
+
+@media (max-width: 940px) {
   .Woman {
     margin-top: 15%;
     margin-bottom: 4rem;
   }
+
+  .Text-Content {
+    margin-bottom: 3rem;
+  }
 }
 
 @media (max-width: 768px) {
-  .icon {
-    bottom: -130px;
-    right: 2%;
-  }
-
-  .Explorer {
-    bottom: -130px;
-    left: 2%;
-  }
-
   .Woman {
     margin-top: 15%;
     margin-bottom: 4rem;
@@ -295,7 +329,7 @@ nav {
     padding-left: 4rem;
     margin-top: 3rem;
     width: 85%;
-    margin-bottom: 7rem;
+    margin-bottom: 1rem;
     }
   
 
@@ -303,14 +337,13 @@ nav {
     font-size: 2rem;
   }
 
-  .First-Page {
+  .FirstPageContent{
     flex-direction: column-reverse;
   }
 
   .Text-Content button {
     margin-top: 2rem;
     width: 255px;
-
   }
 
   .Woman {
@@ -321,25 +354,11 @@ nav {
   }
 
   .icon {
-    bottom: -590px;
-    right: 2%;
+    top: -10px;
   }
 
   .Explorer {
-    bottom: -590px;
-    left: 2%;
-  }
-}
-
-@media (max-width: 550px) {
-  .icon {
-    bottom: -520px;
-    right: 2%;
-  }
-
-  .Explorer {
-    bottom: -520px;
-    left: 2%;
+    margin-left: 1rem;
   }
 }
 
@@ -349,14 +368,8 @@ nav {
     width: 255px;
   }
 
-  .icon {
-    bottom: -465px;
-    right: 2%;
-  }
-
-  .Explorer {
-    bottom: -465px;
-    left: 2%;
+  .Text-Content {
+    margin-bottom: 2rem;
   }
 }
 
@@ -370,14 +383,20 @@ nav {
     font-size: 1.7rem;
   }
 
-  .icon {
-    bottom: -115px;
-    right: 2%;
+  .Promisse {
+    width: 100px;
   }
 
   .Explorer {
-    bottom: -115px;
-    left: 2%;
+    padding: 0rem;
+  }
+
+  .Explorer p {
+    font-size: 0.9rem;
+  }
+
+  .Explorer img {
+    margin-right: 0.5rem;
   }
 }
 
@@ -387,8 +406,6 @@ nav {
   margin-top: 2rem;
   }
 
-  
-
   .Woman {
     width: 95%;
     margin-left: 5%;
@@ -397,27 +414,6 @@ nav {
 
   .Promisse {
     width: 100px;
-  }
-
-  .icon {
-    bottom: -300px;
-    right: 2%;
-  }
-
-  .Explorer {
-    bottom: -300px;
-    left: 0;
-    left: 2%;
-  }
-}
-
-@media (max-width: 360px) {
-  .icon {
-    bottom: -210px;
-  }
-
-  .Explorer {
-    bottom: -210px;
   }
 }
 
