@@ -29,7 +29,7 @@ npm install
 ### Para compilar e iniciar o Projeto:
 
 ```
-npm run serve
+npm run dev
 ```
 
 ## Site do Projeto
